@@ -1,10 +1,15 @@
 {
   "scripts": {
-    "build": "tailwindcss -i ./css/main.css -o ./dist/output.css",
-    "dev": "tailwindcss -i ./css/main.css -o ./dist/output.css --watch"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tailwind": "tailwindcss -i ./css/main.css -o ./dist/output.css --watch"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.10",
     "tailwindcss": "^4.1.10"
+  },
+  "devDependencies": {
+    "vite": "^7.1.5"
   }
 }

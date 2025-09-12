@@ -181,13 +181,18 @@ export const productList = [
 
 export const partnerLogoBasePath = "../assets/partner-logos/";
 export const partnerLogos = [
-  { fileName: "costco.png", alt: "Costco Logo" },
-  { fileName: "kroger.png", alt: "Kroger Logo" },
-  { fileName: "meijer.png", alt: "Meijer Logo" },
-  { fileName: "publix.png", alt: "Publix Logo" },
-  { fileName: "safeway.png", alt: "Safeway Logo" },
-  { fileName: "target.png", alt: "Target Logo" },
-  { fileName: "walmart.png", alt: "Walmart Logo" },
-  { fileName: "wegmans.png", alt: "Wegmans Logo" },
-  { fileName: "whole-foods.png", alt: "Whole Foods Logo" },
+  { fileName: "agent1.jpeg", alt: "Goldman Sachs Logo" },
+  { fileName: "ag3.png", alt: "JPMorgan Logo" },
+  { fileName: "ag4.png", alt: "BlackRock Logo" },
+  { fileName: "ag5.png", alt: "Vanguard Logo" },
+  { fileName: "ag6.png", alt: "Fidelity Logo" },
+  { fileName: "agent6.png", alt: "Fidelity Logo" },
+  { fileName: "s15.jpg", alt: "Fidf Logo" },
+  { fileName: "s16.png", alt: "Fidf Logo" },
+  { fileName: "s17.jpg", alt: "Fidf Logo" },
+  { fileName: "s18.jpg", alt: "Fidelity Logo" },
+  { fileName: "s19.jpg", alt: "Fidelity Logo" },
+  { fileName: "s22.jpg", alt: "Fidelity Logo" },
+  { fileName: "s26.jpg", alt: "Fidelity Logo" },
+  { fileName: "agent2.png", alt: "Fidelity Logo" },
 ];

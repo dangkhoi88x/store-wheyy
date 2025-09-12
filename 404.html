@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>$NumberK token</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="./assets/s-logo.jpg"
+    />
+
+    <!--------------- 
+
+    CSS
+    
+    ----------------->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="./css/showHideNav.css"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="./css/responsive-tabs.css"
+    />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./css/animated-counter-prograssbar.css"
+    />
+    <link
+      href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+      rel="stylesheet"
+    />
+    <link
+      href="./css/animation.css"
+      rel="stylesheet"
+    />
+    <link
+      href="./dist/output.css"
+      rel="stylesheet"
+    />
+
+    <!-- FONT -->
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.9/dist/tailwind.min.css" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- JQuery -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      defer
+    ></script>
+
+    <!--------------- 
+
+    Scripts
+    
+    ----------------->
+    <script
+      src="./js/jquery.hidescroll.js"
+      defer
+    ></script>
+    <script
+      src="./js/jquery.responsiveTabs.js"
+      defer
+    ></script>
+    <script
+      defer
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script
+      src="./js/animated-counter-prograssbar.js"
+      defer
+    ></script>
+    <script
+      defer
+      src="https://unpkg.com/counterup2@2.0.2/dist/index.js"
+    ></script>
+    <script
+      defer
+      src="https://unpkg.com/aos@2.3.1/dist/aos.js"
+    ></script>
+    <script
+      defer
+      type="module"
+      src="./js/main.js"
+    ></script>
+  </head>
+  <body>
+    <!----------------- 
+        Navigation
+    ------------------>
+    <header class="relative z-50">
+      <div class="flex items-center justify-center navbar">
+        <div
+          class="max-w-[1536px] w-full px-4 py-4 md:py-10 md:px-[72px] flex items-center justify-between"
+        >
+          <!-- Logo -->
+          <a
+            href="./"
+            class="flex items-center justify-center flex-none"
+          >
+            <img
+              src="./assets/s-logo.jpg"
+              alt="logo"
+              class="w-16 h-16"
+            />
+            <p class="text-lg capitalize font-lobster text-p-900 pl-2" >   Condom Man $NUMBERK</p>
+          </a>
+
+          <!-- Nav Links -->
+          <nav class="items-center justify-end hidden w-full gap-4 lg:flex lg:gap-8">
+            <a
+              href="./#analysis"
+              class="navLink"
+              >Analysis</a
+            >
+            <a
+              href="./#story"
+              class="navLink"
+              >About</a
+            >
+           
+          </nav>
+
+          <!-- Hamburger Icon -->
+          <div
+            class="block cursor-pointer lg:hidden"
+            id="toggle_btn"
+          >
+            <img
+              src="./assets/Menu Icon.svg"
+              alt="hamburger icon"
+              class="size-5"
+            />
+          </div>
+
+          <!-- Mobile Menu -->
+          <div class="dropdown-menu lg:hidden">
+            <a
+              href="#analysis"
+              class="navLink mobileNavLink"
+              >Analysis</a
+            >
+            <a
+              href="#story"
+              class="navLink mobileNavLink"
+              >About</a
+            >
+            
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!----------------- 
+        Hero 
+    ------------------>
+    <section
+      id="hero"
+      class="h-screen max-h-[1100px] bg-gradient-to-t from-p-100 to-white overflow-y-clip"
+    >
+      <div
+        class="container relative flex items-center justify-center w-full h-full xl:justify-start"
+      >
+        <!-- video -->
+        <div
+          data-aos="fade-left"
+          class="absolute bottom-0 right-0 z-0 overflow-hidden md:-bottom-40 xl:top-1/2 xl:-translate-y-1/2"
+        >
+          <video
+            src="./assets/s-video2.mp4"
+            autoplay
+            muted
+            loop
+            playsinline
+            class="h-full w-auto object-cover 2xl:[mask-image:linear-gradient(to_left,transparent,black_10%)]"
+          >
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <!-- nội dung chính -->
+
+        <div
+          class="z-10 flex flex-col items-center justify-center gap-4 md:gap-9 xl:items-start"
+        >
+          <div>
+            <h2
+              data-aos="zoom-in"
+              class="mb-2 text-xs font-semibold leading-none tracking-wider text-center uppercase font-inter md:text-sm xl:text-start"
+            >
+           
+              <span class="text-xs md:text-sm" style="color: #D4A5A5;">Nobody cared who i was until i put on the mask</span>
+            
+            </h2>
+            <h1
+              data-aos="zoom-in"
+              data-aos-delay="100"
+              class="text-5xl leading-none tracking-wide text-center capitalize font-lobster md:text-6xl lg:text-7xl"
+              style="color: #1e3a8a;"
+            >
+             Number K
+            </h1>
+          </div>
+
+          <p
+            data-aos="zoom-in"
+            data-aos-delay="200"
+            class="max-w-xl px-4 text-center text-n-700 md:px-0 xl:text-start"
+          >
+          Condom Man
+          </p>
+
+          <button
+            data-aos="zoom-in"
+            data-aos-delay="300"
+            style="background-color: #1e3a8a; border-color: #1e3a8a;"
+          >
+            <a
+              class="btn"
+              href="#analysis"
+              >BUY $NUMBERK
+              <img
+                src="./assets/right-arrow.svg"
+                alt="right arrow"
+            /></a>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!----------------- 
+        Partner Logos 
+    ------------------>
+    <section id="partner-logos">
+      <div class="container">
+        <!-- heading -->
+        <div
+          data-aos="fade-right"
+          class="mt-10"
+        >
+          <h2 class="sub_heading">Trusted by</h2>
+          <h1 class="main_heading">
+           <span class="text-gradient">Community</span>
+          </h1>
+        </div>
+        <!-- logos -->
+        <div
+          class="flex mt-9 md:mt-16 [mask-image:linear-gradient(to_right,transparent,black,transparent)]"
+        >
+          <div
+            id="partner-logo-list"
+            class="flex flex-none logos-wrapper gap-14 pl-14"
+          ></div>
+        </div>
+      </div>
+    </section>
+
+    <!----------------- 
+        Analysis
+    ------------------>
+    <section id="analysis">
+      <div class="container">
+        <div class="flex flex-col gap-9">
+          <!-- heading -->
+          <div
+            data-aos="fade-right"
+            class="mt-10"
+          >
+            <h2 class="sub_heading"></h2>
+            <h1 class="main_heading">
+           <span class="text-gradient">Supply & Demand Mechanics </span> of Agent Number K
+            </h1>
+          </div>
+          <!-- tabs -->
+          <div id="products-tabs">
+            <ul
+              class="flex bg-p-50 px-4 md:px-10 xl:px-[200px] py-4 md:py-6 gap-4 md:gap-8 justify-center mb-9 text-center"
+            >
+              <li>
+                <a
+                  href="#matcha"
+                  class="tab-link"
+                  ><span>Extremely Limited Total Supply </span> </a
+                >
+              </li>
+
+              <li>|</li>
+              <li>
+                <a
+                  href="#whiteTea"
+                  class="tab-link"
+                  ><span>Shrinking Real Market Supply </span> </a
+                >
+              </li>
+
+              <li>|</li>
+              <li>
+                <a
+                  href="#oolongTea"
+                  class="tab-link"
+                  ><span>Growing Demand with the Community</span> </a
+                >
+              </li>
+
+              <li>|</li>
+              <li>
+                <a
+                  href="#blackTea"
+                  class="tab-link"
+                  ><span>Systematic Accumulation Strategy </span> </a
+                >
+              </li>
+            </ul>
+
+            <div id="matcha">
+              <div class="tabContainer">
+                <img
+                  src="./assets/s1.jpg"
+                  alt="matcha"
+                  class="productImg"
+                />
+
+                <div>
+                  <h3>Extremely Limited Total Supply</h3>
+                  
+                  <p>
+                    Agent Number K in CS2 was released in very small quantities — once sold, Valve does not mint more. The global supply is only a few thousand agents, making Number K one of the rarest and most sought-after characters in the entire game.
+                  </p>
+                  <button>
+                    <a
+                      href="https://csgoskins.gg/items/number-k-the-professionals"
+                      class="btn"
+                      >Explore 
+                      <img
+                        src="./assets/right-arrow.svg"
+                        alt="right-arrow"
+                    /></a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div id="whiteTea">
+              <div class="tabContainer">
+                <img
+                  src="./assets/s2.jpg"
+                  alt="whitetea"
+                  class="productImg"
+                />
+
+                <div>
+                  <h3>Shrinking Real Market Supply</h3>
+                  
+                  <p>
+                    Most current holders are true collectors — the “diamond hands” — who are not selling. Only a tiny fraction of Number K agents are available on the open market, which means the real supply keeps shrinking over time.
+                  </p>
+                  
+                </div>
+              </div>
+            </div>
+            <div id="oolongTea">
+              <div class="tabContainer">
+                <img
+                  src="./assets/s5.jpg"
+                  alt="oolong"
+                  class="productImg"
+                />
+
+                <div>
+                  <h3>Growing Demand with the Community</h3>
+                 
+                  <p>
+                    CS2 is attracting millions of new players. As more people discover Number K, the demand rises. This creates a natural FOMO effect — prices climb as supply can’t keep up with growing interest.
+                  </p>
+               
+                </div>
+              </div>
+            </div>
+            <div id="blackTea">
+              <div class="tabContainer">
+                <img
+                  src="./assets/s14.jpeg"
+                  alt="blacktea"
+                  class="productImg"
+                />
+
+                <div>
+                  <h3> Systematic Accumulation Strategy</h3>
+                
+                  <p>
+                    Our    actively buys every reasonably priced Number K we can find. This lets us control more of the available market, further reducing free-floating supply and creating consistent upward pressure on price.
+                  </p>
+               
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----------------- 
+        Slogan
+    ------------------>
+
+    <!----------------- 
+        Features
+    ------------------>
+    <section id="features">
+      <div class="container relative m-20 text-center">
+        <!-- hàng đầu -->
+        <div
+          class="flex flex-col items-center justify-center w-full gap-0 lg:gap-10 lg:flex-row"
+        >
+          <div
+            data-aos="zoom-in"
+            class="feature-card group relative overflow-hidden"
+          >
+            <img src="./assets/s11.jpg" alt="Agent K" class="absolute inset-0 w-full h-full object-cover">
+            <div class="feature-filter"></div>
+
+            <h3>Buy $NumberK <br></h3>
+            <p>Smart CS2 players recognize the opportunity and start stacking Number K agents before the crowd catches on</p>
+           
+          </div>
+
+          <div
+            data-aos="zoom-in"
+            data-aos-delay="400"
+            class="order-first bg-p-50 feature-card lg:order-none lg:bg-transparent"
+          >
+            <div>
+              <h2 class="sub_heading"></h2>
+              <h1 class="leading-loose text-center main_heading">
+                 <span class="text-gradient">How it works</span><br />
+                
+              </h1>
+            </div>
+          </div>
+
+          <div
+            data-aos="zoom-in"
+            data-aos-delay="100"
+            class="feature-card group relative overflow-hidden"
+          >
+            <img src="./assets/s8.jpg" alt="Trading Fees" class="absolute inset-0 w-full h-full object-cover">
+            <div class="feature-filter"></div>
+
+            <h3>Trading Fees Fuel the Vault</h3>
+            <p>Every trade generates fees — and we use those fees to buy even more Number K agents, strengthening the treasury and tightening market supply.</p>
+          </div>
+        </div>
+
+        <!-- hàng thứ 2 -->
+
+        <div
+          class="flex flex-col items-center justify-center w-full lg:-mt-20 lg:gap-10 lg:flex-row"
+        >
+          <div
+            data-aos="zoom-in"
+            data-aos-delay="200"
+            class="feature-card group relative overflow-hidden"
+          >
+            <img src="./assets/s9.jpg" alt="Number K moon" class="absolute inset-0 w-full h-full object-cover">
+            <div class="feature-filter"></div>
+
+            <h3>
+              Number K moon
+            </h3>
+            <p>We systematically sweep the market, buying every Number K we can find</p>
+          </div>
+
+          <div
+            data-aos="zoom-in"
+            data-aos-delay="300"
+            class="feature-card group relative overflow-hidden"
+          >
+            <img src="./assets/s10.jpg" alt="Up Only" class="absolute inset-0 w-full h-full object-cover">
+            <div class="feature-filter"></div>
+
+            <h3>
+               Up Only
+            </h3>
+            <p>As circulating supply shrinks to near zero, a price shock is inevitable — sending Number K to new all-time highs.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----------------- 
+       Case Studies
+    ------------------>
+    
+
+    <!----------------- 
+       Stats
+    ------------------>
+    <section
+      id="stats"
+      class="relative mt-20 overflow-hidden"
+    >
+      <!-- video background -->
+      <video
+        src="./assets/s-video3.mp4"
+        autoplay
+        muted
+        loop
+        playsinline
+        class="absolute inset-0 w-full h-full object-cover"
+      >
+        Your browser does not support the video tag.
+      </video>
+      <!-- overlay -->
+      <div class="absolute inset-0 bg-p-950/95"></div>
+
+      <!-- nội dung -->
+       
+      <div
+        class="container relative z-10 flex flex-col items-center justify-center px-4 py-20 lg:py-28 gap-8 lg:gap-12"
+      >
+        <!-- Hàng trên -->
+        <div class="flex flex-col md:flex-row items-center justify-center gap-8 lg:gap-16">
+        <div class="stats-item">
+            <h1 class="counter">90$</h1>
+            <h2>Agent Price</h2>
+        </div>
+
+        <svg
+          viewBox="-1 -1 3 137"
+          width="3"
+          height="137"
+            class="hidden md:block self-center"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <linearGradient
+                id="lineGradient1"
+              x1="0"
+              y1="0"
+              x2="-5.90104e-06"
+              y2="135"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop
+                stop-color="white"
+                stop-opacity="0"
+              />
+              <stop
+                offset="0.494792"
+                stop-color="white"
+              />
+              <stop
+                offset="1"
+                stop-color="white"
+                stop-opacity="0"
+              />
+            </linearGradient>
+          </defs>
+          <line
+            x1="0.5"
+            y1="0"
+            x2="0.5"
+            y2="135"
+              stroke="url(#lineGradient1)"
+            stroke-opacity="0.3"
+            fill="none"
+          />
+        </svg>
+
+        <div class="stats-item">
+            <h1 class="counter">11800</h1>
+            <h2>Supply Number K</h2>
+          </div>
+        </div>
+
+        <!-- Hàng dưới -->
+        <div class="flex flex-col md:flex-row items-center justify-center gap-8 lg:gap-16">
+          <div class="stats-item">
+            <h1 class="counter">930K</h1>
+            <h2>Marketcap Agent Number K</h2>
+        </div>
+
+        <svg
+          viewBox="-1 -1 3 137"
+          width="3"
+          height="137"
+            class="hidden md:block self-center"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <linearGradient
+                id="lineGradient2"
+              x1="0"
+              y1="0"
+              x2="-5.90104e-06"
+              y2="135"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop
+                stop-color="white"
+                stop-opacity="0"
+              />
+              <stop
+                offset="0.494792"
+                stop-color="white"
+              />
+              <stop
+                offset="1"
+                stop-color="white"
+                stop-opacity="0"
+              />
+            </linearGradient>
+          </defs>
+          <line
+            x1="0.5"
+            y1="0"
+            x2="0.5"
+            y2="135"
+              stroke="url(#lineGradient2)"
+            stroke-opacity="0.3"
+            fill="none"
+          />
+        </svg>
+
+        <div class="stats-item">
+            <h1 class="counter">40+</h1>
+            <h2>Our holdings Number K</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----------------- 
+      Story
+    ------------------>
+    <section id="story">
+      <!-- lớp chứa hình nền -->
+      <div
+        class="flex justify-end h-screen max-h-[1100px] p-0 w-full max-w-none relative overflow-hidden"
+      >
+        <img src="./assets/s6.png" alt="Background" class="absolute inset-0 w-full h-full object-cover">
+        <!-- lớp overlay chiếm 2/3 màn hình -->
+        <div class="w-full h-full lg:w-2/3 bg-p-950/60 p-9">
+          <div
+            class="container relative flex items-center justify-center h-full md:justify-end 2xl:justify-center"
+          >
+            <!-- watermark -->
+            <div
+              data-aos="fade-right"
+              class="absolute hidden -translate-y-1/2 translate-x-36 top-1/2 right-1/2 md:block 2xl:translate-x-0"
+            >
+              <h1
+                class="uppercase -rotate-90 text-[168px] text-center leading-[148px] font-bold text-p-50 opacity-20"
+              >
+             AGENT <br />
+                NUMBER K
+              </h1>
+            </div>
+
+            <!-- nội dung chính -->
+            <div
+              class="relative"
+              data-aos="fade-left"
+            >
+              <div class="mb-9">
+                <h2 class="!text-p-200 sub_heading"></h2>
+                <h1 class="text-white main_heading">Our Mission & Story</h1>
+              </div>
+
+              <p class="text-n-200 max-w-80">
+             We began with the belief that understanding market manipulation requires deep analysis and research.<br>
+Therefore, we emerged with the mission to provide comprehensive analysis of artificial scarcity creation, demographic targeting strategies, and market manipulation techniques. We don't just provide data, but aim to become a trusted research partner, helping you understand the complex dynamics behind Agent Number K and similar market phenomena. <br>
+
+For us, market analysis isn't just about data collection, but the key to understanding how artificial scarcity is systematically created through demographic targeting and strategic positioning.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----------------- 
+    Contact
+    ------------------>
+    
+
+    <!----------------- 
+    Footer
+    ------------------>
+    <footer class="bg-p-950">
+      <div class="container text-white/50">
+        <p class="text-center mt-9">© Agent Number K Research Copyright 2025</p>
+      </div>
+    </footer>
+  </body>
+</html>
